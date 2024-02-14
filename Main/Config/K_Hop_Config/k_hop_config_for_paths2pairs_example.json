@@ -1,0 +1,99 @@
+{
+    "company_contact_person": {
+        "Head_Node_name": "credit_no",
+        "Head_Node_class": "Company_Node",
+        "Head_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        },
+        "Head_Max_Sample_Type": "Threshold_N",
+        "Relation_Data": "Company_Phone_Relationship_V2",
+        "Relation_Data_Source": "HDFS",
+        "Tail_Node_name": "company_phone_sha",
+        "Tail_Node_class": "Person_Node",
+        "Tail_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        }
+    },
+    "Person_to_user_pin": {
+        "Head_Node_name": "Person",
+        "Head_Node_class": "Person_Node",
+        "Head_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        },
+        "Relation_Data": "Shipping_Relation_Between_Person_and_Pin_V1",
+        "Relation_Data_Source": "HDFS",
+        "Tail_Node_name": "pin",
+        "Tail_Node_class": "User_Pin_Node",
+        "Tail_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        }
+    },
+    "Person_delivery_address": {
+        "Head_Node_name": "Person",
+        "Head_Node_class": "Person_Node",
+        "Head_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        },
+        "Relation_Data": "Shipping_Relation_Between_Person_and_Address_V1",
+        "Relation_Data_Source": "HDFS",
+        "Tail_Node_name": "traceid",
+        "Tail_Node_class": "Traceid_Node",
+        "Tail_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        }
+    },
+    "company_address": {
+        "Head_Node_name": "credit_no",
+        "Head_Node_class": "Company_Node",
+        "Head_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        },
+        "Relation_Data": "Company_Address_Relationship_V1",
+        "Relation_Data_Source": "HDFS",
+        "Tail_Node_name": "traceid",
+        "Tail_Node_class": "Traceid_Node",
+        "Tail_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        }
+    },
+    "company_to_user_pin": {
+        "Head_Node_name": "credit_no",
+        "Head_Node_class": "Company_Node",
+        "Head_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        },
+        "Relation_Data": "Company_Pin_Relationship_V2",
+        "Relation_Data_Source": "HDFS",
+        "Tail_Node_name": "user_pin",
+        "Tail_Node_class": "User_Pin_Node",
+        "Tail_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        }
+    },
+    "intercompany_edge": {
+        "Head_Node_name": "credit_no_head",
+        "Head_Node_class": "Company_Node",
+        "Head_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        },
+        "Relation_Data": "Intercompany_Relationship_V1",
+        "Relation_Data_Source": "HDFS",
+        "Tail_Node_name": "credit_no_tail",
+        "Tail_Node_class": "Company_Node",
+        "Tail_Edge_Neighbor_Limits": {
+            "Type": "Threshold_N",
+            "Max_Num": 20
+        }
+    }
+}
