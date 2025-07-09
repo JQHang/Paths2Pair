@@ -1,0 +1,10 @@
+{
+    "Node_Columns": ["person_sha", "credit_no"],
+    "Node_Types": ["Person_Node", "Company_Node"],
+    "Node_UID_Names": ["Person_Node_UID", "Company_Node_UID"],
+    "Label_Column": "is_sign",
+    "Time_Column": "sample_start_time",
+    "Table_Name": "tmp.tmp_kg_graph_table_labels_of_mobile_orderincome_outer_lf",
+    "dt": "2023-12-18",
+    "Limits": "(is_sign = 1)"
+}

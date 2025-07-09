@@ -1,0 +1,53 @@
+{
+    "company_related_to_Person": {
+        "Relation_List": [  
+            {
+                "Head_Column_name": "company_phone_sha",
+                "Head_Column_name_AS": "Person_Node_UID",
+                "Head_Node_class": "Person_Node",
+                "Max_Sample_Scale": 20,
+                "Relation_Data": "tmp.tmp_kg_graph_table_edges_from_company_2_Person_dc_v3",
+                "Tail_Column_name": "credit_no",
+                "Tail_Column_name_AS": "Company_Node_UID",
+                "Tail_Node_class": "Company_Node"
+            }
+        ]
+    },
+    "user_pin_related_to_Person": {
+        "Relation_List": [
+            {
+                "Head_Column_name": "Person_sha",
+                "Head_Column_name_AS": "Person_Node_UID",
+                "Head_Node_class": "Person_Node",
+                "Max_Sample_Scale": 20,
+                "Relation_Data": "tmp.tmp_KG_graph_table_edges_from_Person_2_user_pin_express_dc",
+                "Tail_Column_name": "user_pin",
+                "Tail_Column_name_AS": "User_Pin_Node_UID",
+                "Tail_Node_class": "User_Pin_Node"
+            }
+        ]
+    },
+    "Person_from_site": {
+        "Relation_List": [
+            {
+                "Head_Column_name": "sender_phone_sha",
+                "Head_Column_name_AS": "Person_Node_UID",
+                "Head_Node_class": "Person_Node",
+                "Max_Sample_Scale": 20,
+                "Relation_Data": "tmp.tmp_KG_graph_table_edges_from_Person_2_road_id_send_dc_v3",
+                "Tail_Column_name": "site_road_id",
+                "Tail_Column_name_AS": "Road_Node_UID",
+                "Tail_Node_class": "Road_Node",
+            },
+            {
+                "Head_Column_name": "site_road_id",
+                "Head_Column_name_AS": "Road_Node_UID",
+                "Head_Node_class": "Road_Node",
+                "Relation_Data": "tmp.tmp_KG_graph_table_edges_from_site_id_2_site_road_id_dc_v3",
+                "Tail_Column_name": "site_id",
+                "Tail_Column_name_AS": "Site_Node_UID",
+                "Tail_Node_class": "Site_Node"
+            }
+        ]
+    }
+}

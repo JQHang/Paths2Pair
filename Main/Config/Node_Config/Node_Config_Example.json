@@ -1,0 +1,153 @@
+{
+    "Person_Node": [
+        {
+            "node_table_name": "Person_Shipping_Info_V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "Start_Person"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_Person_claim_dc",
+            "node_raw_name": "Person_sha"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_Person_pastsign_jy",
+            "node_raw_name": "irr_Person_sha"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Person_Direct_Exposure_6m___Signed_Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Person_Direct_Exposure_All___Signed_Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___company_count_as_legal_person_to_Person___Company_Node_UID___Weight_0___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        }
+    ],
+    "User_Pin_Node": [
+        {
+            "node_table_name": "Pin_Shipping_Info_V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "pin"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_userpin_wuji_dc2_v3",
+            "node_raw_name": "user_pin"
+        },
+        {
+            "node_table_name": "tmp.tmp_kg_graph_table_feature_of_pin_invoice",
+            "node_raw_name": "pin"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_company_pin_enterprise_da",
+            "node_raw_name": "pin"
+        }
+    ],
+    "Road_Node": [
+        {
+            "node_table_name": "Address_Site_RoadID_Shipping_Info_V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "site_road_id"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Road_Direct_Exposure_6m___Signed_Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Road_Direct_Exposure_All___Signed_Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_N_Feat___Road_Indirect_Exposure_6m___Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_N_Feat___Road_Indirect_Exposure_All___Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_N_Feat___company_indirect_exposure_for_road___Contact_Company_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        }
+    ],
+    "Site_Node": [
+        {
+            "node_table_name": "Address_SiteID_Shipping_Info_V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "site_id"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Site_Direct_Exposure_6m___Signed_Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Site_Direct_Exposure_All___Signed_Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_N_Feat___Site_Indirect_Exposure_6m___Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_N_Feat___Site_Indirect_Exposure_All___Person_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        },
+        {
+            "node_table_name": "CompP_N_Feat___company_indirect_exposure_for_site___Contact_Company_Node_UID___Groupby_Result___V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "start_column"
+        }
+    ],
+    "Traceid_Node": [
+        {
+            "node_table_name": "Address_TraceID_Shipping_Info_V1",
+            "node_table_source": "HDFS",
+            "node_raw_name": "traceid"
+        }
+    ],
+    "Company_Node": [
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_company_whale_dc2_v3",
+            "node_raw_name": "credit_no"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_company_creditno_invoice",
+            "node_raw_name": "credit_no"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_company_pastsign_jy",
+            "node_raw_name": "credit_no"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_credit_no_claim_dc",
+            "node_raw_name": "credit_no"
+        },
+        {
+            "node_table_name": "tmp.tmp_KG_graph_table_feature_of_company_creditno_enterprise_da",
+            "node_raw_name": "credit_no"
+        },
+        {
+            "node_table_name": "tmp.tmp_kg_graph_table_feature_of_company_visit_history_6m_jy_v1",
+            "node_raw_name": "credit_no"
+        },
+        {
+            "node_table_name": "CompP_W_Feat___Person_count_as__legal_person_to_company___Person_Node_UID___Weight_0___Groupby_Result___V1",
+            "node_raw_name": "start_column",
+            "node_table_source": "HDFS"
+        }
+    ]
+}
